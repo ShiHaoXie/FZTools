@@ -15,6 +15,8 @@
 		18F84662253E7E9D00DCD583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84661253E7E9D00DCD583 /* main.m */; };
 		18F8466C253E7E9D00DCD583 /* FZToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8466B253E7E9D00DCD583 /* FZToolsTests.m */; };
 		18F84677253E7E9D00DCD583 /* FZToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84676253E7E9D00DCD583 /* FZToolsUITests.m */; };
+		18F84692253E81A500DCD583 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84691253E81A500DCD583 /* AnimationViewController.m */; };
+		18F8469B253E81E200DCD583 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F8469A253E81E200DCD583 /* CommonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		18F84672253E7E9D00DCD583 /* FZToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F84676253E7E9D00DCD583 /* FZToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZToolsUITests.m; sourceTree = "<group>"; };
 		18F84678253E7E9D00DCD583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F84690253E81A500DCD583 /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		18F84691253E81A500DCD583 /* AnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		18F84699253E81E200DCD583 /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		18F8469A253E81E200DCD583 /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				18F84650253E7E9B00DCD583 /* AppDelegate.m */,
 				18F84655253E7E9B00DCD583 /* ViewController.h */,
 				18F84656253E7E9B00DCD583 /* ViewController.m */,
+				18F84699253E81E200DCD583 /* CommonViewController.h */,
+				18F8469A253E81E200DCD583 /* CommonViewController.m */,
+				18F8468E253E817400DCD583 /* FilePaths */,
 				18F84658253E7E9B00DCD583 /* Main.storyboard */,
 				18F8465B253E7E9D00DCD583 /* Assets.xcassets */,
 				18F8465D253E7E9D00DCD583 /* LaunchScreen.storyboard */,
@@ -130,6 +139,23 @@
 				18F84678253E7E9D00DCD583 /* Info.plist */,
 			);
 			path = FZToolsUITests;
+			sourceTree = "<group>";
+		};
+		18F8468E253E817400DCD583 /* FilePaths */ = {
+			isa = PBXGroup;
+			children = (
+				18F8468F253E819300DCD583 /* FZAnimation */,
+			);
+			path = FilePaths;
+			sourceTree = "<group>";
+		};
+		18F8468F253E819300DCD583 /* FZAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				18F84690253E81A500DCD583 /* AnimationViewController.h */,
+				18F84691253E81A500DCD583 /* AnimationViewController.m */,
+			);
+			path = FZAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +290,8 @@
 				18F84657253E7E9B00DCD583 /* ViewController.m in Sources */,
 				18F84651253E7E9B00DCD583 /* AppDelegate.m in Sources */,
 				18F84662253E7E9D00DCD583 /* main.m in Sources */,
+				18F84692253E81A500DCD583 /* AnimationViewController.m in Sources */,
+				18F8469B253E81E200DCD583 /* CommonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

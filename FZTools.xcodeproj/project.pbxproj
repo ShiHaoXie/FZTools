@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18F84651253E7E9B00DCD583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84650253E7E9B00DCD583 /* AppDelegate.m */; };
-		18F84654253E7E9B00DCD583 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84653253E7E9B00DCD583 /* SceneDelegate.m */; };
 		18F84657253E7E9B00DCD583 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F84656253E7E9B00DCD583 /* ViewController.m */; };
 		18F8465A253E7E9B00DCD583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F84658253E7E9B00DCD583 /* Main.storyboard */; };
 		18F8465C253E7E9D00DCD583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8465B253E7E9D00DCD583 /* Assets.xcassets */; };
@@ -39,8 +38,6 @@
 		18F8464C253E7E9B00DCD583 /* FZTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F8464F253E7E9B00DCD583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F84650253E7E9B00DCD583 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F84652253E7E9B00DCD583 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		18F84653253E7E9B00DCD583 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		18F84655253E7E9B00DCD583 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18F84656253E7E9B00DCD583 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18F84659253E7E9B00DCD583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +103,6 @@
 			children = (
 				18F8464F253E7E9B00DCD583 /* AppDelegate.h */,
 				18F84650253E7E9B00DCD583 /* AppDelegate.m */,
-				18F84652253E7E9B00DCD583 /* SceneDelegate.h */,
-				18F84653253E7E9B00DCD583 /* SceneDelegate.m */,
 				18F84655253E7E9B00DCD583 /* ViewController.h */,
 				18F84656253E7E9B00DCD583 /* ViewController.m */,
 				18F84658253E7E9B00DCD583 /* Main.storyboard */,
@@ -269,7 +264,6 @@
 				18F84657253E7E9B00DCD583 /* ViewController.m in Sources */,
 				18F84651253E7E9B00DCD583 /* AppDelegate.m in Sources */,
 				18F84662253E7E9D00DCD583 /* main.m in Sources */,
-				18F84654253E7E9B00DCD583 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPVYDNY4T8;
 				INFOPLIST_FILE = FZTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPVYDNY4T8;
 				INFOPLIST_FILE = FZTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
